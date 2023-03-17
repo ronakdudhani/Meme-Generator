@@ -39,10 +39,9 @@ abstract class EditImageViewModel extends State<EditImageScreen> {
   int currentIndex = 0;
   Color color = Colors.black;
 
-
   changeFont(String? font) {
     setState(() {
-      this.value = font;
+      value = font;
       texts[currentIndex].font = font!;
     });
   }
@@ -102,6 +101,8 @@ abstract class EditImageViewModel extends State<EditImageScreen> {
   setCurrentIndex(BuildContext context, index) {
     setState(() {
       currentIndex = index;
+      color = texts[currentIndex].color;
+      value = texts[currentIndex].font;
     });
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
