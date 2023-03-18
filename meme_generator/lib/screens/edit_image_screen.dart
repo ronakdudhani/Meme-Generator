@@ -23,7 +23,7 @@ class _EditImageScreenState extends EditImageViewModel {
       body: Column(
         children: [
           Container(
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
                   border: Border(
                     top: BorderSide(
                         width: 1,

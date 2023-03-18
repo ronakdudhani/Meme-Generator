@@ -3,7 +3,6 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:meme_generator/models/text_info.dart';
 import 'package:meme_generator/screens/edit_image_screen.dart';
