@@ -22,3 +22,7 @@ Libraries and Packages used:
 - share_plus
 - google_fonts.
 
+## Demo
+
+https://user-images.githubusercontent.com/98010877/226153227-2fc9595b-a679-4fec-b39c-a4d1d7c09ea3.mp4
+
